@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Medula+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.style-event{
+    margin-left: 2%;
+    font-family: 'Medula One', cursive;
+  src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
+  font-size: 20px;
+}
+
+
+.header{
+    background-color: #af966e;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+
+}
+
+.link{
+    margin-left: 5%;
+    margin-top: 5px;
+    font-family: 'Medula One', cursive;
+    src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
+    
+}
+
+
+
+.img-zelda{
+   height: 115vh;
+}
+
+
+
+
+.description-pattern{
+    background-image: url(img/zelda-bg_pattern_brown.png);
+    z-index: 0;
+}
