@@ -76,7 +76,6 @@ nav.link a {
     text-align: center;
      font-family: 'Medula One', cursive;
     src: url('../fonts/MedulaOne-Regular.ttf') format('truetype'); 
-
     font-size: 45px;
     font-weight: lighter;
 }
@@ -160,3 +159,48 @@ nav.link a {
 }
 
 /* fin de code  */
+
+
+/* partie découvrer le vaste monde  */
+
+.decouvrer-background{
+  background: url(img/zelda-bg_pattern_white.png);
+height: 113vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.decouvre-titre{
+  margin-top: 5%;
+}
+
+.p-explorer p{
+  font-family: 'Libre Baskerville', serif;
+    src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype');
+    font-size: 13px;
+    font-weight: bold;
+}
+.p-explorer{
+  margin-top: 4%;
+}
+
+.img-decouvre{
+  margin-top: 3%;
+}
+
+.p-explorer-deux p{
+  font-family: 'Libre Baskerville', serif;
+    src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype');
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.p-explorer-deux{
+  margin-top: 2%;
+}
+
+.trois-img{
+  margin-top: 5%;
+}
+/* fin de code */
+
