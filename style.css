@@ -248,7 +248,7 @@ height: 105vh;
 
 .preparation-background{
   background-image: url(img/zelda-bg_pattern_white.png);
-  height: 70vh;
+  height: 92vh;
   padding: 20px;
   text-align: center;
   align-items: center;
@@ -273,20 +273,25 @@ height: 105vh;
 
 .wrapper{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 300px 50px 120px 50px;
   gap: 10px;
   grid-auto-rows: minimax(100px, auto);
+  
+}
+
+/* .wrapper img{
+  width: 160px;
 }
 
 
 .un {
   grid-column: 1 / 3;
   grid-row: 1;
-  width: 50px;
 }
 .deux {
   grid-column: 2 / 4;
   grid-row: 1 / 3;
+  
 }
 .trois {
   grid-column: 1;
@@ -303,6 +308,74 @@ height: 105vh;
 .six {
   grid-column: 3;
   grid-row: 4;
+} */
+
+
+.p-prepa p{
+  font-family: 'Libre Baskerville', serif;
+    src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype');
+    font-size: 13px;
+    font-weight: bold;
 }
 
+.p-prepa{
+  margin-top: 3%;
+}
+
+
+.link-prepa a{
+  width: 130px;
+  height: 40px;
+  color: #ffc107;
+  padding: 10px 25px;
+  background-color: #af966d;
+  text-decoration: none;
+  font-family: 'Medula One', cursive;
+  src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
+  font-size: 24px;
+
+}
+
+
 /* fin du code */
+
+
+/* parti cherchez */
+
+.cherchez-background{
+  background-image: url(img/zelda-bg_pattern_brown.png);
+  height: 92vh;
+  padding: 60px;
+}
+
+.gap-cherche{
+  gap: 15px;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.card-cherche{
+  background-image: url(img/zelda-bg_pattern_white.png);
+  width: 297px;
+  height: 625px;
+  padding: 26px;
+  text-align: center;
+  
+}
+
+.card-cherche h3{
+  font-family: 'Medula One', cursive;
+  src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
+  
+  
+}
+
+.card-cherche img{
+  width: 100%;
+}
+
+.h3-cherche{
+  margin-top: 8%;
+}
+
+/* fin de code */

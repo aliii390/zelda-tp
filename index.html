@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TP Zelda</title>
     <!-- Intégration Bootstrap -->
 
     <!-- Votre CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
 
-<body>
+  <body>
     <!-- MENU / NAVBAR -->
     <!-- Chaque entrée du menu doit mener à une section de la landing page -->
-
-
 
     <!-- CAROUSEL -->
     <!-- Carousel full width avec navigation par points - 4 slides
@@ -28,21 +26,14 @@
 
     -->
 
-
-
-
     <!-- SECTION #1 - BASIC -->
     <!-- Utiliser les bonnes classes pour les background des sections -->
     <!-- Utiliser le code <div class="hl-arrow"></div> pour les soulignements dorés -->
     <!-- Utiliser les class de spacing pour aérer votre page : https://getbootstrap.com/docs/5.0/utilities/spacing/ -->
 
-
-
     <!-- SECTION #2 - BOTSTRAP COL -->
     <!-- N'oubliez pas l'affichage responsive, chaque colonne doit être en full width sur smartphone -->
     <!-- Utiliser le code <div class="hl-arrow"></div> pour les soulignements dorés -->
-
-
 
     <!-- SECTION #3 - CAROUSEL -->
     <!-- Simple carousel sans navigation - 3 slides 
@@ -53,8 +44,6 @@
 
     -->
 
-
-
     <!-- SECTION #4 - GRID CSS -->
     <!-- Utiliser le code <div class="hl-arrow"></div> pour les soulignements dorés -->
     <!-- Construire une mini Grid CSS (largeur 100%) pour les images -->
@@ -63,147 +52,146 @@
     <!-- Le bouton 2 ouvre un modal stylisé (même background que les sections dark, largeur 800px) avec la bande-annonce (lien : https://www.youtube.com/watch?v=vumJiWdxQSs)
     -->
 
-
-
     <!-- SECTION #5 - FLEXBOX -->
     <!-- Utiliser le code <div class="hl-arrow"></div> pour les soulignements dorés -->
     <!-- Construisez vos colonnes avec Flexbox-->
     <!-- Pour l'icône de l'oeil : https://icons.getbootstrap.com/ -->
 
-
-
     <!-- FOOTER FLEX -->
     <!-- La flèche renvoie en haut de page -->
 
-
-
     <!-- partie HEADER  -->
     <header class="header">
-        <div class="flex">
-
-            <div class="style-logo">
-                <img src="img/logo-xs-svg.png" alt="logo" width="140px" />
-            </div>
-            <div class="style-event">
-                <h3>Le jeu évènement</h3>
-            </div>
-            <nav class="link">
-                <a href="">ENTRER</a>
-                <a href="">DECOUVRIR</a>
-                <a href="">COMBATTRE</a>
-                <a href="">S'EQUIPER</a>
-                <a href="">PLUS</a>
-            </nav>
+      <div class="flex">
+        <div class="style-logo">
+          <img src="img/logo-xs-svg.png" alt="logo" width="140px" />
         </div>
+        <div class="style-event">
+          <h3>Le jeu évènement</h3>
+        </div>
+        <nav class="link">
+          <a href="">ENTRER</a>
+          <a href="">DECOUVRIR</a>
+          <a href="">COMBATTRE</a>
+          <a href="">S'EQUIPER</a>
+          <a href="">PLUS</a>
+        </nav>
+      </div>
     </header>
     <!-- FIN DE CODE  -->
 
-
     <section>
-        <img class="img-zelda flex" src="img/zelda-header-main.jpg" alt="">
+      <img class="img-zelda flex" src="img/zelda-header-main.jpg" alt="" />
     </section>
-
 
     <!-- description du jeu  -->
     <div class="description-pattern">
+      <div class="h2-deplace">
+        <h2 class="h2-style">Entrez dans un monde d'aventure</h2>
+        <div class="hl-arrow"></div>
+      </div>
 
-        <div class="h2-deplace">
-            <h2 class="h2-style">Entrez dans un monde d'aventure</h2>
-            <div class="hl-arrow"></div>
+      <div class="p-style">
+        <p>
+          Oubliez tout ce que vous savez sur les jeux The Lengend of Zelda.
+          Plongez dans un monde de découverte, d'exploration et d'aventure
+        </p>
+        <p>
+          dans
+          <span style="color: #ffc107"
+            >The Legend of Zelda: Breath of the Wild</span
+          >, un nouveau jeu qui vient boulverser la série à succès
+        </p>
+      </div>
+
+      <div class="flex espace-text">
+        <div class="img-jeu">
+          <img src="img/zelda-link-cheval.png" alt="" width="360px" />
         </div>
 
-        <div class="p-style">
-            <p>Oubliez tout ce que vous savez sur les jeux The Lengend of Zelda. Plongez dans un monde de découverte,
-                d'exploration et d'aventure</p>
-            <p>dans <span style="color: #ffc107;">The Legend of Zelda: Breath of the Wild</span>, un nouveau jeu qui
-                vient boulverser la série à succès</p>
+        <div class="parti-bas">
+          <h2 class="h2-style">Ouvre les yeux</h2>
+          <div class="hl-arrow"></div>
+          <div class="p-texte">
+            <p>
+              Après un sommeil de d'un siècle, Link se réveille seul dans un
+              <br />
+              monde qu'il ne reconnait pas. Le héros légendaire va désormais<br />
+              devoir explorer un territoire vaste et dangereux et retrouver la
+              <br />
+              mémoire avant qu'Hyrule ne soit perdu à jamais. Link <br />
+              entreprend un périple pour trouver des réponses où il devra se
+              <br />
+              servir de tout ce qui se trouve sur sa route pour survivre.
+            </p>
+          </div>
         </div>
-
-        <div class="flex espace-text">
-            <div class="img-jeu">
-                
-                <img src="img/zelda-link-cheval.png" alt="" width="360px">
-            </div>
-
-            <div class="parti-bas">
-                <h2 class="h2-style">Ouvre les yeux</h2>
-                <div class="hl-arrow"></div>
-                <div class="p-texte">
-
-                    <p>Après un sommeil de d'un siècle, Link se réveille seul dans un <br>
-                        monde qu'il ne reconnait pas. Le héros légendaire va désormais<br>
-                        devoir explorer un territoire vaste et dangereux et retrouver la
-                        <br> mémoire avant qu'Hyrule ne soit perdu à jamais. Link
-                        <br> entreprend un périple pour trouver des réponses où il devra se
-                        <br> servir de tout ce qui se trouve sur sa route pour survivre.
-                    </p>
-
-
-
-                </div>
-            </div>
-
-        </div>
-
+      </div>
     </div>
     <!-- fin de code  -->
 
     <!-- partie découvrez le vaste monde -->
 
     <div class="decouvrer-background flex">
-
-        <div class="decouvre-titre">
-            <h2 class="h2-style">Découvrez le vaste monde qui vous entoure</h2>
-            <div class="hl-arrow"></div>
-            <div class="p-explorer">
-                <p>Explorer les paysages d'Hyrule de la manière qui vous convient. Escaladez des tours et montagnes à la
-                    recherche de nouvelles
-                    <br> destinations et utilisez une mystérieuse tablette appelée
-                    "tablette sheikah" pour voir une carte d'Hyrule qui permet de repérer des
-                    <br> point d'intérêt.
-                </p>
-            </div>
-            <div class="img-decouvre">
-                <img src="img/zelda-header-c.jpg" alt="" width="850px">
-            </div>
-            <div class="p-explorer-deux">
-                <p>Link peut couvrir rapidement un large territoire en montant à cheval, naviguer à travers les eaux
-                    d'Hyrule sur un radeau ou dévaler
-                    <br> les pentes en surfant sur son bouclier. Link a également la possibilité de fendre
-                    le ciel grâce son paravoile.
-                </p>
-            </div>
-            <div class="trois-img">
-                <img src="img/zelda-png-b.png" alt="" width="290px">
-                <img src="img/zelda-png-a.png" alt="" width="290px">
-                <img src="img/zelda-png-c.png" alt="" width="290px">
-            </div>
+      <div class="decouvre-titre">
+        <h2 class="h2-style">Découvrez le vaste monde qui vous entoure</h2>
+        <div class="hl-arrow"></div>
+        <div class="p-explorer">
+          <p>
+            Explorer les paysages d'Hyrule de la manière qui vous convient.
+            Escaladez des tours et montagnes à la recherche de nouvelles <br />
+            destinations et utilisez une mystérieuse tablette appelée "tablette
+            sheikah" pour voir une carte d'Hyrule qui permet de repérer des
+            <br />
+            point d'intérêt.
+          </p>
         </div>
-
+        <div class="img-decouvre">
+          <img src="img/zelda-header-c.jpg" alt="" width="850px" />
+        </div>
+        <div class="p-explorer-deux">
+          <p>
+            Link peut couvrir rapidement un large territoire en montant à
+            cheval, naviguer à travers les eaux d'Hyrule sur un radeau ou
+            dévaler <br />
+            les pentes en surfant sur son bouclier. Link a également la
+            possibilité de fendre le ciel grâce son paravoile.
+          </p>
+        </div>
+        <div class="trois-img">
+          <img src="img/zelda-png-b.png" alt="" width="290px" />
+          <img src="img/zelda-png-a.png" alt="" width="290px" />
+          <img src="img/zelda-png-c.png" alt="" width="290px" />
+        </div>
+      </div>
     </div>
     <!-- fin de code -->
 
     <!-- partie combattez pour votre royaume -->
     <div class="combattre-background">
-        <div class="titre-combat">
-            <h2 class="h2-style">Combattez pour votre royaume</h2>
-            <div class="hl-arrow"></div>
-        </div>
-        <div class="p-combat">
-            <p>Grâce aux capacités d'adaptation de Link, celui-ci est capable d'acquérir différentes
-                armes pour combattre. Néanmoins, ces armes
-                <br> s'usent avec le temps et il devra sans cesse en chercher de nouvelles.
-            </p>
-        </div>
-        <div class="img-combat">
-            <img src="img/zelda-run.jpg" alt="" width="850px">
-        </div>
-        <div class="p-combat">
-            <p>Mais pour combattre, il n'y a pas que les armes, Link devra également apprendre à maîtriser toutes sortes
-                d'attaques, comme le tir de <br> flèches à longues portée ou la manipulation d'éxplosifs afin de
-                ressortir
-                vainqueur des affrontement qui l'attendent</p>
-        </div>
+      <div class="titre-combat">
+        <h2 class="h2-style">Combattez pour votre royaume</h2>
+        <div class="hl-arrow"></div>
+      </div>
+      <div class="p-combat">
+        <p>
+          Grâce aux capacités d'adaptation de Link, celui-ci est capable
+          d'acquérir différentes armes pour combattre. Néanmoins, ces armes
+          <br />
+          s'usent avec le temps et il devra sans cesse en chercher de nouvelles.
+        </p>
+      </div>
+      <div class="img-combat">
+        <img src="img/zelda-run.jpg" alt="" width="850px" />
+      </div>
+      <div class="p-combat">
+        <p>
+          Mais pour combattre, il n'y a pas que les armes, Link devra également
+          apprendre à maîtriser toutes sortes d'attaques, comme le tir de <br />
+          flèches à longues portée ou la manipulation d'éxplosifs afin de
+          ressortir vainqueur des affrontement qui l'attendent
+        </p>
+      </div>
     </div>
 
     <!-- fin de code -->
@@ -211,46 +199,138 @@
     <!-- partie préparation  -->
 
     <div class="preparation-background">
-        <div class="titre-prepa">
-            <h2 class="h2-style">Préparez-vous et équipez-vous en conséquence</h2>
-            <div class="hl-arrow"></div>
+      <div class="titre-prepa">
+        <h2 class="h2-style">Préparez-vous et équipez-vous en conséquence</h2>
+        <div class="hl-arrow"></div>
+      </div>
+      <div class="text-prepa">
+        <p>
+          Il vous faudra donc chasser les créatures sauvages, récolter des
+          fruits et des légumes, ou piller des campements ennemis pour y <br />
+          trouver de la nourriture. Vous pourrez même apprendre des recettes
+          pour pimenter le tout ! De nouvelles recettes ne modifient pas <br />
+          uniquement le goût des aliments, elle permettent de soigner Link et de
+          lui conférer un boost de compétence
+        </p>
+      </div>
+
+       <!-- <div class="wrapper flex">
+
+        <div class="un">
+           <img src="img/zelda-grid-a.jpg" alt="" /> 
+           1
         </div>
-        <div class="text-prepa">
-            <p>Il vous faudra donc chasser les créatures sauvages, récolter des fruits et des légumes,
-                ou piller des campements ennemis pour y <br> trouver de la nourriture.
-                Vous pourrez même apprendre des recettes pour pimenter le tout ! De nouvelles recettes ne modifient pas
-                <br> uniquement
-                le goût des aliments, elle permettent de soigner Link et de lui conférer un boost de compétence</p>
+        <div class="deux">
+           <img src="img/zelda-grid-b.png" alt="" /> 
+           2
         </div>
-   
-        <div class="wrapper">
-            <div class="un">
-                <img src="img/zelda-grid-a.jpg" alt="">
-            </div>
-            <div class="deux">
-                <img src="img/zelda-grid-b.png" alt="">
-            </div>
-            <div class="trois">
-                <img src="img/zelda-grid-c.png" alt="">
-            </div>
-            <div class="quatre">
-                <img src="img/zelda-grid-d.jpg" alt="">
-            </div>
-            <div class="cinq">
-                <img src="img/zelda-grid-e.png" alt="">
-            </div>
-            <div class="six">
-                <img src="img/zelda-grid-f.png" alt="">
-            </div>
+        <div class="trois">
+           <img src="img/zelda-grid-c.png" alt="" /> 
+           3
         </div>
+        <div class="quatre">
+           <img src="img/zelda-grid-d.jpg" alt="" /> 
+           4
+        </div>
+        <div class="cinq">
+           <img src="img/zelda-grid-e.png" alt="" /> 
+           5
+        </div>
+        <div class="six">
+           <img src="img/zelda-grid-f.png" alt="" /> 
+           6
+        </div>
+      </div>  -->
+      <div class="container">
+        <div class="row row-cols-4">
+          <div class="col">
+            <img src="img/zelda-grid-a.jpg" alt="" width="230px">
+          </div>
+          <div class="col">
+            <img class="img-b"  src="img/zelda-grid-b.png" alt="" width="230px">
+          </div>
+          <div class="col">
+            <img src="img/zelda-grid-d.jpg" alt="" width="230px">
+          </div>
+          <div class="col-6">
+            <img src="img/zelda-grid-c.png" alt="" width="230px">
+          </div>
+          <div class="col">
+            <img src="img/zelda-grid-e.png" alt="" width="230px">
+          </div>
+          
+          <div class="col">
+            <img src="img/zelda-grid-f.png" alt="" width="230px">
+          </div>
+          <div class="col">
+            <img src="img/zelda-grid-g.png" alt="" width="230px">
+          </div>
+        </div>
+      </div>
+
+    <div class="p-prepa">
+      <p>Link peut également porter toutes sortes de tenues,
+         et en alternant ses vêtements il sera en mesure de se protéger des intempéries 
+         <br> ou d'esquiver les coups ennemis. Il existe une foule de tenues différentes 
+         pour Link, des équipements pour se protéger de la neige 
+         <br> aux armures, mais prenez garde à ne pas porter de métal lors d'une tempête ou vous pourriez vous faire électrocuter par la foudre !</p>
+    </div>
+
+     <div class="link-prepa">
+      <a href="">VOIR LE SITE OFFICIEL</a>
+       <a href="">VOIR LA BANDE-ANNONCE</a>
+     </div>
 
 
     </div>
 
+
     <!-- fin du code -->
 
 
+    <!-- partie cherchez -->
+ 
+    <div class="cherchez-background ">
+    
+      <div class="h2-cherche">
+        <h2 class="h2-style" style="color: white;">Vous cherchez d'autres jeux de la série  <span style=" color: #ffc107;"> The Legend of Zelda ?</span></h2>
+        <div class="hl-arrow"></div>
+      </div>
 
-</body>
+      <div class="flex gap-cherche">
+        <div class="card-cherche">
+          <img src="img/zelda-link-wakening.jpg" alt="">
+          <div class="h3-cherche">
+            <h3>The legend of Zelda-Link's  Awakening </h3>
 
+          </div>
+
+        </div>
+        <div class="card-cherche">
+          <img src="img/zelda-tears.jpg" alt="">
+          <div class="h3-cherche">
+            <h3>The legend of Zelda: Tears of the Kingdom </h3>
+
+          </div>
+        </div>
+        <div class="card-cherche">
+          <img src="img/zelda-cadence.jpg" alt="">
+
+          <div class="h3-cherche">
+            <h3>Cadence of Hyrule - Crypt of the NecroDancer Featuring The Legend of Zelda </h3>
+          </div>
+          
+        </div>
+        
+      </div>
+
+    </div>
+
+
+
+    <!-- fin de code -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
