@@ -333,6 +333,7 @@ height: 105vh;
   font-family: 'Medula One', cursive;
   src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
   font-size: 24px;
+  border: 1px solid #ffc107;
 
 }
 
@@ -344,20 +345,20 @@ height: 105vh;
 
 .cherchez-background{
   background-image: url(img/zelda-bg_pattern_brown.png);
-  height: 92vh;
+  height: 70vh;
   padding: 60px;
 }
 
 .gap-cherche{
-  gap: 15px;
+  gap: 5px;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .card-cherche{
   background-image: url(img/zelda-bg_pattern_white.png);
   width: 297px;
-  height: 625px;
+  height: 570px;
   padding: 26px;
   text-align: center;
   
@@ -366,6 +367,7 @@ height: 105vh;
 .card-cherche h3{
   font-family: 'Medula One', cursive;
   src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
+  font-weight: 700;
   
   
 }
@@ -377,5 +379,80 @@ height: 105vh;
 .h3-cherche{
   margin-top: 8%;
 }
+
+.p-cardd{
+  margin-top: 20%;
+}
+
+
+.p-cardd p{
+  font-family: 'Libre Baskerville', serif;
+  src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.pp-cardd p{
+  font-family: 'Libre Baskerville', serif;
+  src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-size: 13px;
+
+}
+
+.pp-cardd{
+  margin-top: 9%;
+}
+
+.ppp-cardd p{
+  font-family: 'Libre Baskerville', serif;
+  src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.fa-eye{
+  font-size: 36px;
+  color: rgb(18, 80, 212);
+  margin-top: 9%;
+
+}
+
+
+/* fin de code */
+
+/* partie footer */
+
+.footer-content {
+  
+  justify-content: center; 
+  align-items: center;    
+  height: 20vh;         
+  gap: 15%;  
+  background-color: #af966e ;
+  padding: 20px;
+
+}
+
+.seb-txt, .logo-footer {
+  margin: 0 20px; 
+}
+.seb-txt p{
+  font-family: 'Libre Baskerville', serif;
+  src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype');
+  font-size: 12px;
+  color: white;
+}
+
+.fa-arrow-up{
+  color: white;
+margin-left:    10%;
+}
+
+.footer-content img {
+ width: 290px; 
+}
+
+
 
 /* fin de code */
